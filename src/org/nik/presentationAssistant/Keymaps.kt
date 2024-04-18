@@ -47,7 +47,7 @@ class KeymapDescription(var name: String = "", var displayText: String = "") {
     }
 
     override fun hashCode(): Int {
-        return name.hashCode() + 31*displayText.hashCode()
+        return name.hashCode() + 31 * displayText.hashCode()
     }
 }
 

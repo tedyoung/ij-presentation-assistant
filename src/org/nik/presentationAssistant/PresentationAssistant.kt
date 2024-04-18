@@ -211,7 +211,7 @@ class PresentationAssistantConfigurable : Configurable, SearchableConfigurable {
 
     override fun getId() = displayName
     override fun enableSearch(option: String?): Runnable? = null
-    override fun getDisplayName() = "Presentation Assistant"
+    override fun getDisplayName() = "Presentation Assistant (JitterTed Fork)"
     override fun getHelpTopic(): String? = null
 
     override fun createComponent() = mainPanel

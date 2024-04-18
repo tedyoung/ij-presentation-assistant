@@ -26,7 +26,7 @@ import com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.installAndE
 fun showInstallMacKeymapPluginNotification(pluginId: PluginId) {
     val title = "Shortcuts for macOS are not shown"
     val content = "In order to show shortcuts for macOS you need to install 'macOS Keymap' plugin"
-    val notification = Notification("Presentation Assistant", title, content, NotificationType.INFORMATION)
+    val notification = Notification("Presentation Assistant (JitterTed Fork)", title, content, NotificationType.INFORMATION)
     notification.addAction(object : AnAction("Install Plugin") {
         override fun actionPerformed(e: AnActionEvent) {
             installAndEnable(null, setOf(pluginId), false) { notification.expire() }

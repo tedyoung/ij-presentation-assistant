@@ -33,7 +33,7 @@ val FOREGROUND_COLOR_KEY = ColorKey.createColorKey("PRESENTATION_ASSISTANT_HINT_
 val BACKGROUND_COLOR_KEY = ColorKey.createColorKey("PRESENTATION_ASSISTANT_HINT_BACKGROUND", JBColor(Color(186, 238, 186, 120), Color(73, 117, 73)))
 
 class ActionInfoColorSettings : ColorSettingsPage, DisplayPrioritySortable {
-    override fun getDisplayName() = "Presentation Assistant"
+    override fun getDisplayName() = "Presentation Assistant (JitterTed Fork)"
     override fun getColorDescriptors(): Array<ColorDescriptor> {
         return arrayOf(
                 ColorDescriptor("Hint Foreground", FOREGROUND_COLOR_KEY, ColorDescriptor.Kind.FOREGROUND),

@@ -16,18 +16,29 @@
 
 <idea-plugin>
   <id>org.nik.presentation-assistant</id>
-  <name>Presentation Assistant for 2023.2</name>
-  <vendor>Nikolay Chashnikov</vendor>
-  <idea-version since-build="221.0" until-build="232.*"/>
+  <name>Presentation Assistant for 2023 and 2024</name>
+  <vendor>Nikolay Chashnikov (forked by @JitterTed)</vendor>
+  <idea-version since-build="221.0" until-build="241.*"/>
 
   <description><![CDATA[
   Adds an option to show name and shortcuts of any action you invoke (View | Appearance | Descriptions of Actions) in
-  IntelliJ-based IDEs of version 2023.2 and older.
+  IntelliJ-based IDEs.
   <br/>
-  Since version 2023.3, this functionality <a href="https://www.jetbrains.com/help/idea/presentation-assistant.html">is provided</a> by IntelliJ Platform, so it's available in all IntelliJ-based
-  IDEs out of the box, see Settings | Appearance & Behavior | Presentation Assistant.   
+  Forked (by Ted M. Young, aka JitterTed) to add support for 2023.3 and later releases as I prefer it over the built-in Presentation Assistant.
 ]]></description>
   <change-notes><![CDATA[
+    <p>1.0.14</p>
+    <ul>
+    <li>Updated to support 2024.1 releases.</li>
+    </ul>
+    <p>1.0.13</p>
+    <ul>
+    <li>Changed name to indicate that this is a fork.</li>
+    </ul>
+    <p>1.0.12</p>
+    <ul>
+    <li>Forked to support 2023.3.x releases.</li>
+    </ul>
     <p>1.0.11</p>
     <ul>
     <li>Update description to mention that the plugin is not needed in IDEs of version 2023.3 or newer.</li>
@@ -88,7 +99,7 @@
       <applicationService serviceImplementation="org.nik.presentationAssistant.PresentationAssistant"/>
       <applicationConfigurable groupId="appearance" groupWeight="-15" instance="org.nik.presentationAssistant.PresentationAssistantConfigurable"/>
       <colorSettingsPage implementation="org.nik.presentationAssistant.ActionInfoColorSettings"/>
-      <notificationGroup displayType="BALLOON" id="Presentation Assistant"/>
+      <notificationGroup displayType="BALLOON" id="Presentation Assistant (JitterTed Fork)"/>
   </extensions>
   <actions>
     <action class="org.nik.presentationAssistant.ShowActionDescriptionsToggleAction"
