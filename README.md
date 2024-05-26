@@ -1,6 +1,6 @@
 # Forked Presentation Assistant Plugin
 
-This is a forked copy of the Presentation Assistant plugin that has been modified to work with IntelliJ IDEA versions 2023.3 through 2024.1. 
+This is a forked copy of the Presentation Assistant plugin that has been modified to work with IntelliJ IDEA versions 2023.3 through 2024.2. 
 
 ## Why?
 
@@ -12,7 +12,7 @@ I only modified the name (to make it clear it was a fork of the original) and, o
 
 ## Installation
 
-I don't want to go through the plugin approval process (since I'm not even sure it'd be approved), so you'll have to install it from disk. Go to the Preferences dialog, click on Plugins, then click the gear icon and select `Install Plugin from Disk...` and select the zip file found in this repository.
+I don't want to go through the plugin approval process (since I'm not even sure it'd be approved), so you'll have to install it from disk. Go to the Preferences dialog, click on Plugins, then click the gear icon and select `Install Plugin from Disk...` and select the zip file found in this repository: currently [presentation-assistant-1.0.15.zip](./presentation-assistant-1.0.15.zip).
 
 ![Screenshot for installing plugin from disk](install-plugin-screenshot.png)
 

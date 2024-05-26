@@ -18,7 +18,7 @@
   <id>org.nik.presentation-assistant</id>
   <name>Presentation Assistant for 2023 and 2024</name>
   <vendor>Nikolay Chashnikov (forked by @JitterTed)</vendor>
-  <idea-version since-build="221.0" until-build="241.*"/>
+  <idea-version since-build="221.0" until-build="242.*"/>
 
   <description><![CDATA[
   Adds an option to show name and shortcuts of any action you invoke (View | Appearance | Descriptions of Actions) in
@@ -27,6 +27,10 @@
   Forked (by Ted M. Young, aka JitterTed) to add support for 2023.3 and later releases as I prefer it over the built-in Presentation Assistant.
 ]]></description>
   <change-notes><![CDATA[
+    <p>1.0.15</p>
+    <ul>
+    <li>Updated to support 2024.2 early-access release.</li>
+    </ul>
     <p>1.0.14</p>
     <ul>
     <li>Updated to support 2024.1 releases.</li>
