@@ -118,7 +118,7 @@ class ShortcutPresenter : Disposable {
         val mainKeymap = getPresentationAssistant().configuration.mainKeymap
         val shortcutTextFragments = getShortcutTexts(mainKeymap, actionId, actionText)
         if (shortcutTextFragments.isNotEmpty()) {
-            if (fragments.isNotEmpty()) fragments.addText(" via&nbsp;")
+            if (fragments.isNotEmpty()) fragments.addText("&nbsp;")
             fragments.addAll(shortcutTextFragments)
         }
 
